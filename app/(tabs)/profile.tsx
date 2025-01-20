@@ -22,6 +22,11 @@ export default function Profile() {
           <ThemedText style={styles.text}>Amil Silahic</ThemedText>
         </ThemedView>
       </ThemedView>
+      <Card>
+        <ThemedText className="font-thin font-mono text-2xl bg-red-500">
+          Something Here Maybe
+        </ThemedText>
+      </Card>
     </SafeAreaView>
   );
 }
