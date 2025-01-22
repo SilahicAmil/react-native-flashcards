@@ -1,0 +1,314 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Algorithms"
+    },
+    {
+      "id": 2,
+      "name": "Data Structures"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "deckId": 1,
+      "question": "What is the time complexity of binary search?",
+      "answer": "O(log n)"
+    },
+    {
+      "id": 2,
+      "deckId": 1,
+      "question": "Explain the difference between greedy algorithms and dynamic programming.",
+      "answer": "Greedy algorithms make locally optimal choices, while dynamic programming solves subproblems and combines their solutions."
+    },
+    {
+      "id": 3,
+      "deckId": 1,
+      "question": "What is a stable sorting algorithm?",
+      "answer": "A sorting algorithm that preserves the relative order of equal elements."
+    },
+    {
+      "id": 4,
+      "deckId": 1,
+      "question": "What is the purpose of Dijkstra's algorithm?",
+      "answer": "To find the shortest path from a source node to all other nodes in a graph."
+    },
+    {
+      "id": 5,
+      "deckId": 1,
+      "question": "What is the divide and conquer strategy?",
+      "answer": "A method that divides a problem into smaller subproblems, solves them, and combines the results."
+    },
+    {
+      "id": 6,
+      "deckId": 1,
+      "question": "What is the time complexity of quicksort in the worst case?",
+      "answer": "O(n^2)"
+    },
+    {
+      "id": 7,
+      "deckId": 1,
+      "question": "Explain the purpose of the sliding window technique.",
+      "answer": "It optimizes problems involving contiguous subarrays or substrings."
+    },
+    {
+      "id": 8,
+      "deckId": 1,
+      "question": "What is memoization in dynamic programming?",
+      "answer": "Storing the results of expensive function calls to avoid redundant computations."
+    },
+    {
+      "id": 9,
+      "deckId": 1,
+      "question": "What is the difference between DFS and BFS?",
+      "answer": "DFS explores as far as possible along a branch, while BFS explores all neighbors at the current depth first."
+    },
+    {
+      "id": 10,
+      "deckId": 1,
+      "question": "What is the purpose of Bellman-Ford's algorithm?",
+      "answer": "To find the shortest paths from a source to all vertices, even with negative weights."
+    },
+    {
+      "id": 11,
+      "deckId": 1,
+      "question": "What is a heuristic in algorithm design?",
+      "answer": "A strategy for finding approximate solutions quickly when exact solutions are not feasible."
+    },
+    {
+      "id": 12,
+      "deckId": 1,
+      "question": "What is the Master Theorem used for?",
+      "answer": "To determine the time complexity of divide-and-conquer algorithms."
+    },
+    {
+      "id": 13,
+      "deckId": 1,
+      "question": "What is the two-pointer technique?",
+      "answer": "An approach to solve array problems by maintaining two pointers to optimize searches or computations."
+    },
+    {
+      "id": 14,
+      "deckId": 1,
+      "question": "What is the time complexity of heap sort?",
+      "answer": "O(n log n)"
+    },
+    {
+      "id": 15,
+      "deckId": 1,
+      "question": "What is backtracking?",
+      "answer": "A technique for solving problems by trying out all possible solutions and discarding those that fail constraints."
+    },
+    {
+      "id": 16,
+      "deckId": 1,
+      "question": "What is the purpose of Floyd-Warshall's algorithm?",
+      "answer": "To find shortest paths between all pairs of vertices in a weighted graph."
+    },
+    {
+      "id": 17,
+      "deckId": 1,
+      "question": "What is the complexity of merge sort?",
+      "answer": "O(n log n)"
+    },
+    {
+      "id": 18,
+      "deckId": 1,
+      "question": "What is the difference between Prim's and Kruskal's algorithm?",
+      "answer": "Prim's algorithm grows a single tree, while Kruskal's builds a forest of trees."
+    },
+    {
+      "id": 19,
+      "deckId": 1,
+      "question": "What is the knapsack problem?",
+      "answer": "A problem to maximize value within a weight limit using dynamic programming or greedy approaches."
+    },
+    {
+      "id": 20,
+      "deckId": 1,
+      "question": "What is the time complexity of breadth-first search?",
+      "answer": "O(V + E), where V is vertices and E is edges."
+    },
+    {
+      "id": 21,
+      "deckId": 1,
+      "question": "What is the time complexity of merge sort?",
+      "answer": "O(n log n)"
+    },
+    {
+      "id": 22,
+      "deckId": 1,
+      "question": "What is a greedy algorithm?",
+      "answer": "An algorithm that makes the locally optimal choice at each step."
+    },
+    {
+      "id": 23,
+      "deckId": 1,
+      "question": "What is dynamic programming?",
+      "answer": "A method for solving complex problems by breaking them into simpler subproblems and solving each subproblem only once."
+    },
+    {
+      "id": 24,
+      "deckId": 1,
+      "question": "What is the purpose of the A* algorithm?",
+      "answer": "To find the shortest path from a start node to a target node in a weighted graph."
+    },
+    {
+      "id": 25,
+      "deckId": 1,
+      "question": "What is the difference between a top-down and bottom-up approach in dynamic programming?",
+      "answer": "Top-down solves subproblems recursively, while bottom-up solves them iteratively."
+    },
+    {
+      "id": 26,
+      "deckId": 2,
+      "question": "What is a binary tree?",
+      "answer": "A tree where each node has at most two children."
+    },
+    {
+      "id": 27,
+      "deckId": 2,
+      "question": "What is a heap?",
+      "answer": "A complete binary tree that satisfies the heap property: parent nodes are greater (max heap) or smaller (min heap) than children."
+    },
+    {
+      "id": 28,
+      "deckId": 2,
+      "question": "What is a balanced binary tree?",
+      "answer": "A binary tree where the height of left and right subtrees differs by no more than one."
+    },
+    {
+      "id": 29,
+      "deckId": 2,
+      "question": "What is the difference between an adjacency list and an adjacency matrix?",
+      "answer": "An adjacency list stores neighbors for each vertex, while an adjacency matrix uses a 2D array to represent edges."
+    },
+    {
+      "id": 30,
+      "deckId": 2,
+      "question": "What is a trie?",
+      "answer": "A tree-like data structure used to store strings efficiently."
+    },
+    {
+      "id": 31,
+      "deckId": 2,
+      "question": "What is a linked list?",
+      "answer": "A linear data structure where each node points to the next node."
+    },
+    {
+      "id": 32,
+      "deckId": 2,
+      "question": "What is a graph?",
+      "answer": "A set of vertices connected by edges."
+    },
+    {
+      "id": 33,
+      "deckId": 2,
+      "question": "What is the difference between a stack and a queue?",
+      "answer": "A stack is LIFO (Last In First Out), while a queue is FIFO (First In First Out)."
+    },
+    {
+      "id": 34,
+      "deckId": 2,
+      "question": "What is the purpose of a hash table?",
+      "answer": "To store key-value pairs for efficient lookups in O(1) time on average."
+    },
+    {
+      "id": 35,
+      "deckId": 2,
+      "question": "What is a circular linked list?",
+      "answer": "A linked list where the last node points to the first node."
+    },
+    {
+      "id": 36,
+      "deckId": 2,
+      "question": "What is a doubly linked list?",
+      "answer": "A linked list where each node has two pointers: one pointing to the next node and another to the previous node."
+    },
+    {
+      "id": 37,
+      "deckId": 2,
+      "question": "What is a stack used for?",
+      "answer": "To store data in a Last In First Out (LIFO) order, useful for recursive function calls or expression evaluation."
+    },
+    {
+      "id": 38,
+      "deckId": 2,
+      "question": "What is a queue used for?",
+      "answer": "To store data in a First In First Out (FIFO) order, useful for managing tasks or buffers."
+    },
+    {
+      "id": 39,
+      "deckId": 2,
+      "question": "What is the time complexity of searching in a hash table?",
+      "answer": "O(1) on average, O(n) in the worst case when there are hash collisions."
+    },
+    {
+      "id": 40,
+      "deckId": 2,
+      "question": "What is a union-find data structure?",
+      "answer": "A data structure used to efficiently handle disjoint sets, supporting operations like union and find."
+    },
+    {
+      "id": 41,
+      "deckId": 2,
+      "question": "What is a bloom filter?",
+      "answer": "A probabilistic data structure used to test whether an element is a member of a set, with a possibility of false positives."
+    },
+    {
+      "id": 42,
+      "deckId": 2,
+      "question": "What is a red-black tree?",
+      "answer": "A balanced binary search tree where nodes are colored red or black to maintain balancing."
+    },
+    {
+      "id": 43,
+      "deckId": 2,
+      "question": "What is a B-tree?",
+      "answer": "A self-balancing tree data structure that maintains sorted data and allows searches, insertions, deletions in logarithmic time."
+    },
+    {
+      "id": 44,
+      "deckId": 2,
+      "question": "What is the purpose of an AVL tree?",
+      "answer": "An AVL tree is a self-balancing binary search tree where the difference between heights of left and right subtrees is at most 1."
+    },
+    {
+      "id": 45,
+      "deckId": 2,
+      "question": "What is the difference between a heap and a priority queue?",
+      "answer": "A heap is a tree-based structure used to implement priority queues, which store elements with priorities for efficient access to the highest or lowest priority element."
+    },
+    {
+      "id": 46,
+      "deckId": 2,
+      "question": "What is a skip list?",
+      "answer": "A probabilistic data structure that allows for fast search, insertion, and deletion operations, with multiple levels of linked lists."
+    },
+    {
+      "id": 47,
+      "deckId": 2,
+      "question": "What is a graph traversal algorithm?",
+      "answer": "A method for visiting all the nodes in a graph, such as DFS (Depth First Search) or BFS (Breadth First Search)."
+    },
+    {
+      "id": 48,
+      "deckId": 2,
+      "question": "What is the purpose of the topological sort?",
+      "answer": "Topological sort is used to order elements of a directed acyclic graph (DAG) in a linear sequence."
+    },
+    {
+      "id": 49,
+      "deckId": 2,
+      "question": "What is a Fibonacci heap?",
+      "answer": "A data structure for priority queues that supports faster decrease-key and delete-min operations than a binary heap."
+    },
+    {
+      "id": 50,
+      "deckId": 2,
+      "question": "What is the time complexity of inserting a new node in a red-black tree?",
+      "answer": "O(log n), where n is the number of nodes in the tree."
+    }
+  ]
+}
