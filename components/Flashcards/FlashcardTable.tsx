@@ -1,7 +1,6 @@
 import { Card, Text } from "@rneui/themed";
-import { FlatList, SafeAreaView } from "react-native";
+import { FlatList, SafeAreaView, StyleSheet } from "react-native";
 
-import { StyleSheet } from "react-native";
 import flashCardData from "../../assets/dsa_flashcards_updated.json";
 
 export default function FlashcardTable() {
