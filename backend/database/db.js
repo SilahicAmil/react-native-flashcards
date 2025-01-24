@@ -10,9 +10,13 @@ require("dotenv").config({ path: "backend/.env" });
 
 const express = require("express");
 const mysql = require("mysql2");
+const cors = require("cors");
 
 const app = express();
 const PORT = 3000;
+
+app.use(cors());
+app.use(bodyParser.json());
 
 const connection = mysql.createConnection({
   host: process.env.DB_HOST,
@@ -32,11 +36,12 @@ connection.connect((err) => {
 app.listen(PORT, (error) => {
   if (!error) {
     console.log(
-      "Server is Successfully Running, and App is listening on port " + PORT,
+      "Server is Successfully Running, and App is listening on port " + PORT
     );
   } else {
     console.log("Error occurred, server can't start", error);
   }
 });
 
-// IMplement
+// IMplement app.get for decks and flashcards
+// Implement app.post for decks and flashcards

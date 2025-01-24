@@ -1,8 +1,8 @@
-import { StyleSheet } from "react-native";
-import { FlatList } from "react-native";
 import { Card, Text } from "@rneui/themed";
+import { FlatList, SafeAreaView } from "react-native";
+
+import { StyleSheet } from "react-native";
 import flashCardData from "../../assets/dsa_flashcards_updated.json";
-import { SafeAreaView } from "react-native";
 
 export default function FlashcardTable() {
   // Render each question
